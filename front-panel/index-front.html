@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>front-panel</title>
+    <link rel="stylesheet" href="style-front.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <div class="header">
+        <div class="header-1">
+            <p id="flip">Flipkart</p>
+            <p id="exp">Explore plus +</p>
+        </div>
+
+        <div class="header-search">
+            <i class="fa-solid fa-magnifying-glass" id="search-logo"></i>
+            <input placeholder="Search for Products, Brands and More" class="search-input">
+        </div>
+        <div class="navbar">
+            <div class="login-button">
+                <a id="login-1" href="login-panel/login.html" target="_blank">
+                    <p><i class="fa-regular fa-circle-user"></i> &nbsp;Login &nbsp; &#x25bd;</p>
+                </a>
+            </div>
+            <div class="dropdown-menu">
+                <ul>
+                    <li><strong id="new-c">
+                        <a href="#" target="_blank">New customer?</a>
+                    </strong>
+                        <a id="sign-u" href="login-panel/login.html" target="_blank">Sign Up</a></li>
+                    <li>
+                        <a href="#"><i class="fa-regular fa-circle-user">
+                        </i>My Profile</a>
+                    </li>
+                    <li><a href="#">Flipkart Plus Zone</a></li>
+                    <li><a href="#">Orders</a></li>
+                    <li><a href="#">Wishlist</a></li>
+                    <li><a href="#">Rewards</a></li>
+                    <li><a href="#">Gift Cards</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <button class="cart">
+            <i id="cart-1" class="fa-solid fa-cart-shopping"></i>
+            <a id="cart" href="#">Cart</a>
+        </button>
+
+        <div class="seler">
+            <i class="fa-brands fa-dropbox"></i>
+            <a id="seler" href="#">Become a Seller</a>
+        </div>
+
+
+        <div class="top-bar">
+            <div class="menu">
+                <button class="menu-button" onclick="toggleDropdown()">⋮</button>
+                <div id="dropdown-menu" class="dropdown-content">
+                    <a href="#">Notification Preferences</a>
+                    <a href="#">24x7 Customer Care</a>
+                    <a href="#">Advertise</a>
+                    <a href="#">⬇️ Download App</a>
+                </div>
+            </div>
+        </div>
+        
+        <script>
+            function toggleDropdown() {
+                document.getElementById("dropdown-menu").classList.toggle("show");
+            }
+        </script>
+
+    </div>
+    <div class="header-2">
+        <div class="h-1">
+            <a href="#"><img id="h1" src="h-11.png" alt=""></a>
+            <a class="h2" href="#">Top offers</a>
+        </div>
+        
+        <div class="h-1">
+            <a href="mobil-e/mobile.html"><img id="h1" class="id2" src="h-2.png" alt=""></a>
+            <a class="h2" href="#">Mobiles & Tablets</a>
+        </div><div class="h-1">
+            <a href="wheecle-font-panel/wheecle.html"><img id="h1" src="wheecle-flip.png" alt=""></a>
+            <a class="h2" id="h13" href="#">Two Wheelers</a>
+        </div>
+        
+        <div class="h-1">
+            <a href="#"><img id="h1" class="id9 id19" src="h-4.png" alt=""></a>
+            <a class="h2" id="id19" href="#">Electronics</a>
+        </div><div class="h-1">
+            <a href="#"><img id="h1" src="h-5.png" alt=""></a>
+            <a class="h2" href="#">Fashion</a>
+        </div>
+        
+        <div class="h-1">
+            <a href="#"><img id="h1" src="h-6.png" alt=""></a>
+            <a class="h2" href="#">Beauty</a>
+        </div><div class="h-1">
+            <a href="#"><img id="h1" src="h-7.png" alt=""></a>
+            <a class="h2" href="#">Home & Kitchen</a>
+        </div>
+        
+        <div class="h-1">
+            <a href="#"><img id="h1" src="h-8.png" alt=""></a>
+            <a class="h2" href="#">Furniture</a>
+        </div><div class="h-1">
+            <a href="travel-panel/travel.html" target="_blank"><img id="h1" src="h-9.png" alt=""></a>
+            <a href="travel-panel/travel.html" target="_blank" class="h2">Travel</a>
+        </div>
+        
+        <div class="h-1" id="last1">
+            <a href="#"><img id="h1" src="h-10.png" alt=""></a>
+            <a class="h2" href="#">Grocery</a>
+        </div>
+       
+    </div>
+
+    <a href="#">    
+        <div class="ccc">
+            <div class="hero-2"></div>
+        </div>
+    </a>
+
+    <div class="premium">
+        <a id="pres" href="#">
+            <div class="pre1">
+                <div class="pre-1">
+                    <div><h2 class="prem1">Premium Products</h2></div>
+                    <div id="best-1"></div>
+                    <div id="best"></div>
+                    <div id="best1">
+                        <a id="of" href="#">
+                            <p>Best of QLED TVs</p>
+                            <p id="of1">Rs. 7,000 of an Exch*</p>
+                        </a>
+                    </div>
+                </div>
+            </a>
+            <a href="#">
+                <div class="pre-1">
+                    <div><h2 class="prem1" id="prem12"></h2></div>
+                    <div id="best-1"></div>
+                    <div id="best12"></div>
+                    <div id="best1">
+                        <a id="of" href="#">
+                            <p>Speakers & Soundboards</p>
+                            <p id="of1">Shop Now</p>
+                        </a>
+                    </div>
+                </div>
+            </a>
+            <a href="#">
+                <div class="pre-1">
+                    <div><h2 class="prem1" id="prem12"></h2></div>
+                    <div id="best-1"></div>
+                    <div id="best13"></div>
+                    <div id="best1">
+                        <a id="of" href="#">
+                            <p>premium Smart Wearables</p>
+                            <p id="of1">From Rs. 2,799 </p>
+                        </a>
+                    </div>
+                </div>
+            </a>
+            <a href="gamepade-panel.html/gamepad.html">
+                <div class="pre-1">
+                    <div><h2 class="prem1" id="prem12"></h2></div>
+                    <div id="best-1"></div>
+                    <div id="best14"></div>
+                    <div id="best1">
+                        <a id="of" href="gamepade-panel.html/gamepad.html">
+                            <p>Gamepads</p>
+                            <p id="of1">From Rs. 699</p>
+                        </a>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="pre-1">
+                    <div><h2 class="prem1" id="prem12"></h2></div>
+                    <div id="best-1"></div>
+                    <div id="best15"></div>
+                    <div id="best1">
+                        <a id="of" href="#">
+                            <p>Cealing Lamp</p>
+                            <p id="of1">From Rs. 2,799</p>
+                        </a>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="pre2">
+            <a href="#"><div class="pre9"></div></a>
+        </div>
+    </div>
+
+
+    <div class="banner3">
+    </div>
+    <div class="banner4"></div>
+
+    <a href="#">
+        <div class="banner5"></div>
+    </a>
+    <div class="hero-main">
+        <a href="#">
+            <div class="hero1"></div>
+        </a>
+        <a href="#">
+            <div class="hero1"></div>
+        </a>
+        <a href="#">
+            <div class="hero1"></div>
+        </a>
+        <a href="#">
+            <div class="hero1"></div>
+        </a>
+        <a href="#">
+            <div class="hero1"></div>
+        </a>
+        <a href="#">
+            <div class="hero1"></div>
+        </a>
+        <a href="#">
+            <div class="hero1"></div>
+        </a>
+        <a href="#">
+            <div class="hero1"></div>
+        </a>
+        <a href="#">
+            <div class="hero1"></div>
+        </a>
+    </div>
+
+    <div class="footer-cont">
+     <h4 id="cont1">Top Stories: Brand Directory</h4>
+        
+     <a id="cont2" href="#">MOST SEARCHED FOR ON FLIPKART: IPhone 16 IPhone 16 Plus | iPhone 16 Pro iPhone 16 Pro Max | Whoop Band | Flipkart Minutes | Filipkart Exchange | Flipkart Reset | Nothing Phone 2a Plus | Sarees | CMF by Noth
+
+        Phone 1 | Pocket Bazaar | Xiaomi 14 CIVI | Infinix Note 40 Pro 5G | IPhone 15 | Infinix Note 40 5G | IPhone 15 Plus | vivo X Fold3 Pro | Motorola g04s | Vivo x 100 | OnePlus Nord CE 3 Lite 5G | Spoyl Store | SAMSUNG Flip5 | SAMSUNG Fold5 | Flipkart Axis Bank Super Elite Credit card | 5G Mobile Phones | Primebook Laptops | Moto Edge 40 | Grievance Redressal | OPPO Reno7 Pro 5G | Help Centre | Track Orders | Manage Orders | Retum
+        
+        Orders Gift Cards Store Flipkart Axis Bank Credit Card | Pay Later
+        
+        MOBILES OPPO Reno 12 | Redml 12 5G | Realme 12+ 5G | POCO C65 | Motorola G84 | Realme C53 | Infinix Smart 8 | Samsung Galaxy S23 5G | Samsung Galaxy S21 FE 5G Qualcomm | vivo V30 | Samsung Galaxy S24
+        
+        5G Samsung Galaxy S24+5G | IPhone 12 64GB | iPhone 12 Pro 512GB | IPhone 12 128GB | Vivo Y15 | SAMSUNG Galaxy S21 FE 5G | Infinix HOT 301 | Realme 10 Pro 5G | MOTOROLA G62 5G | Nothing Phone | REDMI Note 12 5G Infinix SMART 7 | Vivo Y12 | Oppo A12 | Motorola 5g Phone | Realme 5g Smartphone | Apple 5g Phone | Iqoo 5g Phones | Oneplus 5g Phones | Vivo 5g Phones | Oppo 5g Smart Phones | Oppo F15 | Oppo A31 | Samsung
+        
+        A71 Samsung A51 | Samsung A31 | 4G Mobile | Nokla Mobile | Samsung Mobile | Iphone | Oppo Mobile | Vivo Mobile CAMERA GoPro Action Camera | Nikon Camera | Canon Camera | Sony Camera | Canon DSLR | Nikon DSLR
+        
+        LAPTOPS Asus ROG Ally | MacBook Pro M2 | Premium Laptop | ASUS ROG Strix SCAR 16 (2023) Core 19 13th Gen | ASUS ROG Zephyrus M16 (2023) Core i9 13th Gen | ASUS Zenbook 14 OLED (2022) | Realme Book Prime 11th Gen | Microsoft Surface Go Pentium 128GB | Apple Laptops | Acer Laptops | Lenovo Laptops | Dell Laptops | Asus Laptops | HP Laptops | Gaming Laptops | 2 in 1 Laptops | Laptops | Dell latest laptops 2022 | HP latest
+        
+        2022 Infinix INBook Y1 Plus | SAMSUNG Galaxy Book3 | 12th Gen Intel Core Laptops
+        
+        TVS Nokia TV | Panasonic TV | Thomson TV | Mi X Pro | Realme TV | Motorola TV | OnePlus TVs | LG TV | TV | Sony TV | Samsung TV | Android Television | Iffalcon Tv | Mi TV
+        
+        LARGE APPLIANCES: Television | Washing Machines | Refrigerators | Air Conditioners | Electric Cookers | Electric Jug(Heater) / Travel Kettles | Induction Cooktops | Inverters/stabilizer | Irons / Iron Box | Mixer Grinder Juicer | Wet Grinders | Chimneys | Microwave Ovens | Vacuum Cleaners | Water Purifier | Fan
+        
+        CLOTHING Sarees | Green bridal lehenga | Tops | Apron for Doctors | Shoes | Sunglasses | Bridal Blouse | Half saree blouse designs | Designer blouses | Blouse designs | Shirts | Cotton saree blouse
+        
+        designs | Tshirts | Jeans | Dresses | One pleces | Groom wedding sherwani | Designer Salwar Suits | Bra | Cotton simple blouse designs | Banarasi saree blouse designs | Stylish blouse astin design | Track Pant | Blouse ne designs | Kurtas | Party Dresses | Palazzo Suits | Anarkali | Gowns | Cut out dress | Salwar Suits | Kurtis | Designer Sarees | Leggings | Shorts | Georgette Sarees | Ethnic Wear | uppada pattu sarees | Blouse back design |.
+        
+        pants
+        
+        FOOTWEAR: Adidas Shoes | Reebok Shoes | Nike Shoes | Puma Shoes | Boots | Bata Shoes | Woodland Shoes | Skechers Shoes | Sneakers | Womens Boots | Sports Shoes | Loafers | Sandals | Lotto Sports Shoes | Cas Shoes | Womens Skechers Shoes | Asics Sports Shoes | Formal Shoes | School Shoes
+        
+        GROCERIES PhonePe Grocery Voucher | Hand Wash | Soap | Cashew Nuts | Sunflower Oil | Eggs | Toilet Cleaner | Harpic Toilet Cleaner | Dettol Soap | Mustard Oil | Biscuits | Cheese | Patanjali Atta | Fortune Oil | Aash
+        
+        Atta | Tea
+        
+        BEST SELLING ON FLIPKART Headphones | Best Gas Geyser | Kitchen Geyser | Nutri Blenders | Portable Air Cooler | Best Air Cooler | Bags | Hitachi Refrigerator 3 Door | Books | Toys | Candles | Helmets | Wall Cloc Food | Chocolates | Cycles | Calculators | Lipsticks | Mask | Vertiv UPS | Fastrack Watches | Wallets | Earrings | Gold Coins | Realme Pad Mini | Handbags | conekt SW2 Smartwatch | Mivi DuoPods s350 | Speaker Cleaner
+        
+        FURNITURE Furniture | Sofas | Beds | Dining sets | Wardrobes | Mattresses | TV Units | Tables | Chairs | Shelves | Bean Bags | Office Chairs | Computer Table | Office Tables | Red Sofa | Wakefit Beds | White Sofa | wa
+        
+        Mattress Green Sofa Black Sofa Brown Sofa</a>
+    </div>
+
+<h4 id="cont1">Flipkart: The One-stop Shopping Destination</h4>
+
+<a id="cont2" href="#">E-commerce is revolutionizing the way we all shop in India. Why do you want to hop from one store to another in search of the latest phone when you can find it on the Internet in a single click? Not only mobiles. Flipkart he everything you can possibly imagine, from trending electronics like laptops, tablets, smartphones, and mobile accessories to in-vogue fashion staples like shoes, clothing and lifestyle accessories, from modern furniture lic sets, dining tables, and wardrobes to appliances that make your life easy like washing machines, TVs, ACs, mixer grinder julcers and other time-saving kitchen and small appliances; from home furnishings like cushion cove mattresses and bedsheets to toys and musical instruments, we got them all covered. You name it, and you can stay assured about finding them all here. For those of you with erratic working hours, Flipkart is your best be your PJs, at night or in the wee hours of the morning. This e-commerce never shuts down.
+
+    What's more, with our year-round shopping festivals and events, our prices are irresistible. We're sure you'l find yourself picking up more than what you had in mind. If you are wondering why you should shop from Flipkam there are multiple options available to you, well, the below will answer your question.
+    
+    Flipkart Plus
+    
+    A world of limitless possibilities awaits you - Flipkart Plus was kickstarted as a loyalty reward programme for all its regular customers at zero subscription fee. All you need is 500 supercoins to be a part of this service. Fom 100 rupees spent on Flipkart order, Plus members earns 4 supercoins & non-plus members earn 2 supercoins. Free delivery, early access during sales and shopping festivals, exchange offers and priority customer service top benefits to a Flipkart Plus member. In short, earn more when you shop more!
+    
+    What's more, you can even use the Flipkart supercoins for a number of exciting services, like:
+    
+    An annual Zomato Gold membership An annual Hotstar Premium membership
+    
+    6 months Gaana plus subscription
+    
+    Rupees 550 instant discount on flights on Ixigo Check out https://www.flipkart.com/plus/all-offers for the entire list. Terms and conditions apply.
+    
+    No Cost EMI
+    
+    to an attempt to make high-end products accessible to all, our No Cost EMI plan enables you to shop with us under EMI, without shelling out any processing fee. Applicable on select mobiles, laptops large and small app
+    
+    fumiture, electronics and watches, you can now shop without burning a hole in your pocket. If you've been eyeing a product for a long time, chances are it may be up for a no cost EMi Take a look ASAP Terms and con
+    
+    apply
+    
+    EMI on Debit Cards
+    
+    Did you inw debit card holders account for 79.38 crore in the country, while there are only 3,14 Did you sow debit card holders acount flowering you to shop confidently with us without having to worry about pauses in monthly cash flow. At present, we have partnered with Am Bar HD
+    
+    crore credit card holders? After enabling EMI on Credit Cards, in another attempt to mawn ontine shopping.</a>
+
+
+    <a href="" class="back">Back to top
+    </a>
+
+
+    <div class="footer-last">
+        <a id="no" href="#">
+            <div class="footer1">
+                <p id="foot4">ABOUT</p>
+                <p>Contact Us</p>
+                <p>About Us</p>
+                <p>Careers</p>
+                <p>Flipkart Stories</p>
+                <p>Press</p>
+                <p>Corporate Information</p>
+            </div>
+        </a>
+        <a id="no" href="#">
+            <div class="footer1">
+                <p id="foot4">GROUP COMPANIES</p>
+                <p>Myntra</p>
+                <p>Cleartrip</p>
+                <p>Shopsy</p>
+            </div>
+        </a>
+        <a href="#" id="no">
+            <div class="footer1">
+                <p id="foot4">HELP</p>
+                <p>Payments</p>
+                <p>Shipping</p>
+                <p>Cancelletion & Returns</p>
+                <p>FAQ</p>
+                <p>Report Infringement</p>
+            </div>
+        </a>
+        <a href="#" id="no">
+            <div class="footer1">
+                <p id="foot4">CONSUMER POLICY</p>
+                <p>Cencilletion & Returns</p>
+                <p>Terms of Use</p>
+                <p>Security</p>
+                <p>Privacy</p>
+                <p>Sitemap</p>
+                <p>Grievence Redressal</p>
+                <p>EPR Complience</p>
+            </div>
+        </a>
+        <div class="footer2"></div>
+        <div class="footer1">
+            <p id="foot4">Mail Us:</p>
+            <p>Flipkart Interner Private Limited,</p>
+            <p>Buildings Alyssa Begonia &</p>
+            <p>Clove Embassy Tech Village,</p>
+            <p>Outer Ring Road Devarabeesanahalli Village,</p>
+            <p>Benguluru, 560103,</p>
+            <p>Karnataka, India</p>
+            <p id="foot3" >Social:</p>
+            <a href="#">
+                <p id="face"></p>
+            </a>
+            
+        </div>
+        <div class="footer1">
+            <p id="foot4">Resitered Office Address:</p>
+            <p>Flipkart Internet Private Limited,</p>
+            <p>Building Alyssa, Begonia &</p>
+            <p>Clove Embassy Tech Village,</p>
+            <p>Outer Ring Road, Devarabeesanhalli village,</p>
+            <p>Benaguluru, 560103</p>
+            <p>Karnataka, India</p>
+            <p>CIN: UTF32335FFFFCJ555107</p>
+            <p>Telephone: <a id="tele" href="#">044-229988007</a> / <a id="tele" href="#">044-77341800</a></p>
+        </div>
+    </div>
+
+    <div class="last6">
+        <a style="text-decoration: none;" href="#">
+            <p style="color: #fff;" ></i>Become a Seller</p>
+        </a>
+        <a style="text-decoration: none;" href="#">
+            <p style="color: #fff;" ></i>Advertise</p>
+        </a>
+        <a style="text-decoration: none;" href="#">
+            <p style="color: #fff;" ></i>Gift Cards</p>
+        </a>
+        <a style="text-decoration: none;" href="#">
+            <p style="color: #fff;"></i>Help Center</p>
+        </a>
+        <p>&#169;&nbsp;<i id="copyright" class="fa-regular fa-copyright"></i>
+            2007-2024 Flipkart.com</p>
+        <p id="lastpic"></p>
+
+    </div>
+
+</body>
+</html>
