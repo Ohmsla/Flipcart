@@ -183,11 +183,11 @@ body {
 .seler{
     color: #666;
     font-size: 18px;
+    margin-right: -20px;
 }
 #seler{
     text-decoration: none;
     color: #666;
-    margin-left: 5px;
 }
 #menu-1{
     opacity: .7;
